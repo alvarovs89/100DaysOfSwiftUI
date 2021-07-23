@@ -78,6 +78,8 @@ struct ContentView: View {
                     
                 }
                 .allowsHitTesting(timeRemaining > 0)
+                
+                
                 if cards.isEmpty {
                     Button("Start Again", action: resetCards)
                         .padding()
@@ -167,19 +169,32 @@ struct ContentView: View {
                 }
             }
             
-//MARK: - CHALLENGE 1
-            if self.timeRemaining == 0 {
+//MARK: - CHALLENGE 1  - Day 86 - Make something interesting for when the timer runs out. At the very least make some text appear, but you should also try designing a custom haptic using Core Haptics.
 
-                Text("Hola")
-                    .font(.largeTitle)
-                    .background(
-                        Capsule()
-                            .fill(Color.red)
-                            .opacity(0.75)
-                    )
+            if self.timeRemaining == 0 {
+                ZStack {
+                    Color.black
+                    VStack {
+                        Text("Time Over")
+                            .font(.largeTitle)
+                            .padding(20)
+                            .background(
+                                Capsule()
+                                    .fill(Color.red)
+                                    .opacity(0.75)
+                            )
                 
-                    .animation(.easeInOut)
+                        Button("Start Again", action: resetCards)
+                            .padding()
+                            .background(Color.white)
+                            .foregroundColor(.black)
+                            .clipShape(Capsule())
+                    
+                            .animation(.easeInOut)
+                    }
+                }
             }
+
         }
 // ===
         .onReceive(timer) { time in

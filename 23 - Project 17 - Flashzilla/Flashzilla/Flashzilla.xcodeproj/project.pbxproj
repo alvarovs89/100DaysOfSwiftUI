@@ -13,6 +13,7 @@
 		EDC43910269D8E64007B95DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC4390F269D8E64007B95DA /* Preview Assets.xcassets */; };
 		EDC43918269DCF7F007B95DA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC43917269DCF7F007B95DA /* CardView.swift */; };
 		EDC4391A269DCF9A007B95DA /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC43919269DCF9A007B95DA /* Card.swift */; };
+		EDD01C9026AA777D0040484E /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD01C8F26AA777D0040484E /* ResetButton.swift */; };
 		EDF511BF26A06B5500B556DB /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF511BE26A06B5500B556DB /* EditCards.swift */; };
 		EDF511C126A1125500B556DB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF511C026A1125500B556DB /* SettingsView.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		EDC43911269D8E64007B95DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDC43917269DCF7F007B95DA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EDC43919269DCF9A007B95DA /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		EDD01C8F26AA777D0040484E /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
 		EDF511BE26A06B5500B556DB /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		EDF511C026A1125500B556DB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +64,7 @@
 			children = (
 				EDC43908269D8E62007B95DA /* FlashzillaApp.swift */,
 				EDC4390A269D8E62007B95DA /* ContentView.swift */,
+				EDD01C8F26AA777D0040484E /* ResetButton.swift */,
 				EDC43917269DCF7F007B95DA /* CardView.swift */,
 				EDF511BE26A06B5500B556DB /* EditCards.swift */,
 				EDC43919269DCF9A007B95DA /* Card.swift */,
@@ -154,6 +157,7 @@
 				EDC43918269DCF7F007B95DA /* CardView.swift in Sources */,
 				EDC43909269D8E62007B95DA /* FlashzillaApp.swift in Sources */,
 				EDF511C126A1125500B556DB /* SettingsView.swift in Sources */,
+				EDD01C9026AA777D0040484E /* ResetButton.swift in Sources */,
 				EDF511BF26A06B5500B556DB /* EditCards.swift in Sources */,
 				EDC4391A269DCF9A007B95DA /* Card.swift in Sources */,
 			);

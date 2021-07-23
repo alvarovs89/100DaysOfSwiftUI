@@ -15,7 +15,8 @@ struct CardView: View {
 
     @State private var isShowingAnswer = false
     @State private var offset = CGSize.zero
-    
+
+
     @Environment(\.accessibilityDifferentiateWithoutColor) var differentiateWithoutColor
 
     @State private var feedback = UINotificationFeedbackGenerator()
